@@ -6,7 +6,7 @@ const app= express();
 app.use(express.json());
 app.use("/user",router);
 
-mongoose.connect("mongodb+srv://jeevanantham:merncluster1@cluster1.zamvmwt.mongodb.net/?appName=Cluster1")
+mongodb+srv://RohiniM:8438828957@cluster0.3sqlnlq.mongodb.net/?appName=Cluster0
 .then((res)=>{
   console.log("connected");
   
