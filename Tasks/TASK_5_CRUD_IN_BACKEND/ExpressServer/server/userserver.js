@@ -6,7 +6,7 @@ const app= express();
 app.use(express.json());
 app.use("/user",router);
 
-mongodb+srv://RohiniM:8438828957@cluster0.3sqlnlq.mongodb.net/?appName=Cluster0
+mongodb+srv://UserName:abcd1234@cluster0.3sqlnlq.mongodb.net/?appName=Cluster0
 .then((res)=>{
   console.log("connected");
   
